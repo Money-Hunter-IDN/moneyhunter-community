@@ -30,7 +30,7 @@ export default function HomePage() {
             </h1>
 
             <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-12 leading-relaxed max-w-3xl mx-auto">
-              A knowledge-sharing community where we're all students. Learn about stocks, cryptocurrencies, market analysis, and Web3 developments through peer-to-peer discussions and educational content.
+              A knowledge-sharing community where we&apos;re all students. Learn about stocks, cryptocurrencies, market analysis, and Web3 developments through peer-to-peer discussions and educational content.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center">
@@ -62,7 +62,7 @@ export default function HomePage() {
                 <p className="text-lg sm:text-xl text-gray-600 mb-8 leading-relaxed">
                   Connect with 1,800+ learners exploring stocks, crypto, and Web3.
                   Share knowledge, learn from peers, and grow together in a supportive
-                  environment where everyone's a student.
+                  environment where everyone&apos;s a student.
                 </p>
 
                 <div className="space-y-3 sm:space-y-4">
@@ -82,7 +82,7 @@ export default function HomePage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900 text-sm sm:text-base">Peer Learning</h3>
-                      <p className="text-gray-600 text-sm sm:text-base">Everyone's a student, no gurus or mentors</p>
+                      <p className="text-gray-600 text-sm sm:text-base">Everyone&apos;s a student, no gurus or mentors</p>
                     </div>
                   </div>
 
@@ -165,7 +165,7 @@ export default function HomePage() {
                   What makes MoneyHunter different from other finance communities?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600 text-sm sm:text-base">
-                  We've been building this community since 2021 with one core principle: we're all students here. No gurus, no hierarchy, just genuine peer-to-peer learning. We cover both traditional markets (stocks) and digital assets (crypto, Web3) in one supportive environment.
+                  We&apos;ve been building this community since 2021 with one core principle: we&apos;re all students here. No gurus, no hierarchy, just genuine peer-to-peer learning. We cover both traditional markets (stocks) and digital assets (crypto, Web3) in one supportive environment.
                 </AccordionContent>
               </AccordionItem>
 
@@ -180,7 +180,7 @@ export default function HomePage() {
 
               <AccordionItem value="item-3" className="bg-white/80 backdrop-blur-sm border-[#FF5900]/10 rounded-lg px-4 sm:px-6 shadow-md shadow-[#FF5900]/5 hover:shadow-lg hover:shadow-[#FF5900]/10 transition-shadow duration-200">
                 <AccordionTrigger className="text-gray-900 hover:text-[#FF5900] text-base sm:text-lg accordion-trigger">
-                  Which platforms should I join and what's the difference?
+                  Which platforms should I join and what&apos;s the difference?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600 text-sm sm:text-base">
                   We're active across three platforms: Telegram for daily discussions and quick updates, Discord for more structured community interactions, and Instagram for educational content and market insights. Start with whichever platform you prefer, or join multiple for the full experience.

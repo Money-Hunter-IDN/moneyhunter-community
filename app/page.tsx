@@ -20,16 +20,16 @@ import Image from "next/image";
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-white text-gray-900">
-      <section className="py-20 px-4 min-h-screen flex items-center justify-center bg-white">
+      <section className="py-20 px-4 min-h-screen flex items-center justify-center bg-gradient-to-br from-white to-[#FF5900]/5">
         <div className="container mx-auto text-center max-w-4xl">
           <div className="mb-6">
-            <Badge className="bg-[#FF5900]/10 text-[#FF5900] border-[#FF5900]/30 mb-4">
+            <Badge className="bg-[#FF5900]/10 text-[#FF5900] border-[#FF5900]/30 mb-4 shadow-md shadow-[#FF5900]/10">
               <Bitcoin className="w-4 h-4 mr-2" />
               1,800+ Learners • Since 2021
             </Badge>
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300">
             Web3 & Finance Community
           </h1>
 
@@ -38,28 +38,35 @@ export default function HomePage() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              size="lg"
-              className="bg-[#FF5900] hover:bg-[#FF5900]/90 text-white px-8 py-4 text-lg"
-            >
-              Join Our Community
-              <ArrowRight className="ml-2 w-5 h-5" />
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-4 text-lg bg-white"
-            >
-              View Learning Resources
-            </Button>
+            <a href="#features">
+              <Button
+                size="lg"
+                className="bg-[#FF5900] hover:bg-[#FF5900]/90 text-white px-8 py-4 text-lg"
+              >
+                Choose Your Platform
+                <ArrowRight className="ml-2 w-5 h-5" />
+              </Button>
+            </a>
+            <a href="#features">
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-[#FF5900]/30 text-[#FF5900] hover:bg-[#FF5900]/5 px-8 py-4 text-lg bg-white"
+              >
+                Learn More About Us
+              </Button>
+            </a>
+
           </div>
         </div>
       </section>
 
-      <section id="features" className="py-20 px-4 bg-gray-50">
-        <div className="container mx-auto max-w-6xl">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div>
+      <section id="features" className="py-20 px-4 bg-[#FF5900]/5">
+        <div className="container mx-auto max-w-6xl relative">
+          <div className="absolute -top-24 -right-24 w-48 h-48 bg-[#FF5900]/5 rounded-full blur-3xl"></div>
+          <div className="absolute -bottom-12 -left-12 w-32 h-32 bg-[#FF5900]/10 rounded-full blur-2xl"></div>
+          <div className="grid lg:grid-cols-12 gap-8 items-center">
+            <div className="lg:col-span-7">
               <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
                 Knowledge Sharing{" "}
                 <span className="bg-gradient-to-r from-[#FF5900] to-[#FF5900] bg-clip-text text-transparent">
@@ -73,7 +80,7 @@ export default function HomePage() {
               </p>
 
               <div className="space-y-4">
-                <div className="flex items-start space-x-4">
+                <div className="flex items-start space-x-4 hover:translate-x-2 transition-transform duration-200 cursor-pointer">
                   <div className="w-6 h-6 bg-[#FF5900] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                     <div className="w-2 h-2 bg-white rounded-full"></div>
                   </div>
@@ -83,7 +90,7 @@ export default function HomePage() {
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-4">
+                <div className="flex items-start space-x-4 hover:translate-x-2 transition-transform duration-200 cursor-pointer">
                   <div className="w-6 h-6 bg-[#FF5900] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                     <div className="w-2 h-2 bg-white rounded-full"></div>
                   </div>
@@ -93,7 +100,7 @@ export default function HomePage() {
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-4">
+                <div className="flex items-start space-x-4 hover:translate-x-2 transition-transform duration-200 cursor-pointer">
                   <div className="w-6 h-6 bg-[#FF5900] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                     <div className="w-2 h-2 bg-white rounded-full"></div>
                   </div>
@@ -105,7 +112,7 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm">
+            <div className="lg:col-span-5">
               <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
                 Join Our Community
               </h3>
@@ -164,7 +171,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="faq" className="py-20 px-4 bg-white">
+      <section id="faq" className="py-20 px-4 bg-gradient-to-br from-[#FF5900]/5 to-white">
         <div className="container mx-auto max-w-3xl">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
@@ -176,10 +183,7 @@ export default function HomePage() {
           </div>
 
           <Accordion type="single" collapsible className="space-y-4">
-            <AccordionItem
-              value="item-1"
-              className="bg-gray-50 border-gray-200 rounded-lg px-6 shadow-sm"
-            >
+            <AccordionItem value="item-1" className="bg-white border-[#FF5900]/10 rounded-lg px-6 shadow-md shadow-[#FF5900]/5 hover:shadow-lg hover:shadow-[#FF5900]/10 transition-shadow duration-200">
               <AccordionTrigger className="text-gray-900 hover:text-[#FF5900]">
                 What makes MoneyHunter different from other finance communities?
               </AccordionTrigger>
@@ -190,7 +194,7 @@ export default function HomePage() {
 
             <AccordionItem
               value="item-2"
-              className="bg-gray-50 border-gray-200 rounded-lg px-6 shadow-sm"
+              className="bg-white border-[#FF5900]/10 rounded-lg px-6 shadow-md shadow-[#FF5900]/5 hover:shadow-lg hover:shadow-[#FF5900]/10 transition-shadow duration-200"
             >
               <AccordionTrigger className="text-gray-900 hover:text-[#FF5900]">
                 What topics do you cover in the community?
@@ -202,7 +206,7 @@ export default function HomePage() {
 
             <AccordionItem
               value="item-3"
-              className="bg-gray-50 border-gray-200 rounded-lg px-6 shadow-sm"
+              className="bg-white border-[#FF5900]/10 rounded-lg px-6 shadow-md shadow-[#FF5900]/5 hover:shadow-lg hover:shadow-[#FF5900]/10 transition-shadow duration-200"
             >
               <AccordionTrigger className="text-gray-900 hover:text-[#FF5900]">
                 Which platforms should I join and what's the difference?
@@ -252,7 +256,7 @@ export default function HomePage() {
             <Button
               size="lg"
               variant="outline"
-              className="border-gray-300 text-gray-700 hover:bg-gray-50 px-12 py-4 text-xl bg-white"
+              className="border-[#FF5900]/30 text-[#FF5900] hover:bg-[#FF5900]/5 px-12 py-4 text-xl bg-white"
             >
               Follow on Instagram
             </Button>

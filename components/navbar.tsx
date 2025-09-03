@@ -124,14 +124,14 @@ const Navbar = () => {
                 }}
                 className="px-2 py-2 rounded-lg text-gray-600 hover:bg-gray-100 text-left"
               >
-                Community
+                About
               </button>
               <Link
                 href="#faq"
                 onClick={closeMenu}
                 className="px-2 py-2 rounded-lg text-gray-600 hover:bg-gray-100"
               >
-                FAQ
+                Resources
               </Link>
             </nav>
 
@@ -140,7 +140,7 @@ const Navbar = () => {
                 onClick={closeMenu}
                 className="bg-[#FF5900] hover:bg-[#FF5900]/90 text-white"
               >
-                Join Free Community
+                Join Our Community
               </Button>
             </div>
           </div>

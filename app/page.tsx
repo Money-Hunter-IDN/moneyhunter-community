@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import {
   Accordion,
@@ -183,7 +182,7 @@ export default function HomePage() {
                   Which platforms should I join and what&apos;s the difference?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600 text-sm sm:text-base">
-                  We're active across three platforms: Telegram for daily discussions and quick updates, Discord for more structured community interactions, and Instagram for educational content and market insights. Start with whichever platform you prefer, or join multiple for the full experience.
+                  We&apos;re active across three platforms: Telegram for daily discussions and quick updates, Discord for more structured community interactions, and Instagram for educational content and market insights. Start with whichever platform you prefer, or join multiple for the full experience.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

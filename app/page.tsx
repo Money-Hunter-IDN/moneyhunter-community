@@ -192,10 +192,10 @@ export default function HomePage() {
 
         <footer className="py-8 px-4">
           <div className="container mx-auto text-center">
-            <div className="flex items-center justify-center space-x-2 mb-4">
+            <Link href="/" className="flex items-center justify-center space-x-2 mb-4">
               <Image src="/android-chrome-192x192.png" width={24} height={24} alt="logo" />
               <span className="text-lg font-bold text-[#FF5900]">MoneyHunter</span>
-            </div>
+            </Link>
 
             <div className="flex justify-center space-x-6 mb-4 text-gray-600">
               <a href="https://t.me/moneyhunteridn" className="hover:text-gray-900">Telegram</a>

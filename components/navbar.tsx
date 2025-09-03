@@ -67,7 +67,7 @@ const Navbar = () => {
 
         <div className="hidden md:flex items-center gap-4">
           <Button className="bg-[#FF5900] hover:bg-[#FF5900]/90 text-white">
-            Join Free Community
+            Join Our Community
           </Button>
         </div>
 

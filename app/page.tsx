@@ -8,7 +8,7 @@ import {
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, Bitcoin } from "lucide-react";
-import { FaTelegram, FaDiscord, FaInstagram } from 'react-icons/fa';
+import { FaTelegram, FaDiscord, FaInstagram, FaXTwitter } from 'react-icons/fa6';
 
 export default function HomePage() {
   return (
@@ -140,6 +140,19 @@ export default function HomePage() {
                       </div>
                     </div>
                     <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 text-gray-400 group-hover:text-pink-500" />
+                  </a>
+
+                  <a href="https://x.com/moneyhunteridn" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between p-3 sm:p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors group">
+                    <div className="flex items-center space-x-4">
+                      <div className="w-10 h-10 sm:w-12 sm:h-12 bg-black rounded-lg flex items-center justify-center">
+                        <FaXTwitter className="w-6 h-6 sm:w-8 sm:h-8 text-white" />
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-gray-900 text-sm sm:text-base">X (Twitter)</h4>
+                        <p className="text-xs sm:text-sm text-gray-600">Latest news & insights</p>
+                      </div>
+                    </div>
+                    <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 text-gray-400 group-hover:text-black" />
                   </a>
                 </div>
               </div>

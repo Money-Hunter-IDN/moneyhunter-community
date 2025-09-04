@@ -20,7 +20,7 @@ export default function HomePage() {
             <div className="mb-6">
               <Badge className="bg-[#FF5900]/10 text-[#FF5900] border-[#FF5900]/30 mb-4 shadow-md shadow-[#FF5900]/10 text-sm sm:text-base">
                 <Bitcoin className="w-3 h-3 sm:w-4 sm:h-4 mr-2" />
-                1,800+ Learners • Since 2021
+                1,800+ Learners • Since 2022
               </Badge>
             </div>
 
@@ -177,7 +177,7 @@ export default function HomePage() {
                   What makes Money Hunter different from other finance communities?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600 text-sm sm:text-base">
-                  We&apos;ve been building this community since 2021 with one core principle: we&apos;re all students here. No gurus, no hierarchy, just genuine peer-to-peer learning. We cover both traditional markets (stocks) and digital assets (crypto, Web3) in one supportive environment.
+                  We&apos;ve been building this community since 2022 with one core principle: we&apos;re all students here. No gurus, no hierarchy, just genuine peer-to-peer learning. We cover both traditional markets (stocks) and digital assets (crypto, Web3) in one supportive environment.
                 </AccordionContent>
               </AccordionItem>
 

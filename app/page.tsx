@@ -154,14 +154,14 @@ export default function HomePage() {
                 Frequently Asked Questions
               </h2>
               <p className="pt-4 text-lg sm:text-xl text-gray-600">
-                Everything you need to know about MoneyHunter community.
+                Everything you need to know about Money Hunter community.
               </p>
             </div>
 
             <Accordion type="single" collapsible className="space-y-3 sm:space-y-4">
               <AccordionItem value="item-1" className="bg-white/80 backdrop-blur-sm border-[#FF5900]/10 rounded-lg px-4 sm:px-6 shadow-md shadow-[#FF5900]/5 hover:shadow-lg hover:shadow-[#FF5900]/10 transition-shadow duration-200">
                 <AccordionTrigger className="text-gray-900 hover:text-[#FF5900] text-base sm:text-lg accordion-trigger">
-                  What makes MoneyHunter different from other finance communities?
+                  What makes Money Hunter different from other finance communities?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600 text-sm sm:text-base">
                   We&apos;ve been building this community since 2021 with one core principle: we&apos;re all students here. No gurus, no hierarchy, just genuine peer-to-peer learning. We cover both traditional markets (stocks) and digital assets (crypto, Web3) in one supportive environment.
@@ -193,7 +193,7 @@ export default function HomePage() {
           <div className="container mx-auto text-center">
             <Link href="/" className="flex items-center justify-center space-x-2 mb-4">
               <Image src="/android-chrome-192x192.png" width={20} height={20} className="sm:w-6 sm:h-6" alt="logo" />
-              <span className="text-base sm:text-lg font-bold text-[#FF5900]">MoneyHunter</span>
+              <span className="text-base sm:text-lg font-bold text-[#FF5900]">Money Hunter</span>
             </Link>
 
             <div className="flex justify-center space-x-4 sm:space-x-6 mb-4 text-gray-600 text-sm sm:text-base">
@@ -203,7 +203,7 @@ export default function HomePage() {
             </div>
 
             <div className="flex justify-center space-x-2 sm:space-x-4 text-gray-400 text-xs sm:text-sm">
-              <span>&copy; 2025 MoneyHunter</span>
+              <span>&copy; 2025 Money Hunter</span>
               <span>•</span>
               <Link href="#" className="hover:text-gray-600">Community Guidelines</Link>
             </div>

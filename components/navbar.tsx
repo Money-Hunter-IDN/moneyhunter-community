@@ -52,7 +52,7 @@ const Navbar = () => {
                 />
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-[#FF5900] to-[#FF5900] bg-clip-text text-transparent">
-                MoneyHunter
+                Money Hunter
               </span>
             </Link>
           </div>

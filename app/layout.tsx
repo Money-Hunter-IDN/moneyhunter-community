@@ -10,10 +10,9 @@ import "./globals.css";
 import Navbar from "@/components/navbar";
 
 export const metadata: Metadata = {
-  title: "Money Hunter | Web3 & Finance Community",
+  title: "Money Hunter",
   description:
-    "Join the elite community of crypto traders and macro analysts. Get exclusive insights, real-time signals, and proven strategies to dominate Web3 markets.",
-  generator: "v0.app",
+    "Web3 & Finance Community",
 };
 
 export default function RootLayout({

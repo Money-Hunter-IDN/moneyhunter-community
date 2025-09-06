@@ -20,7 +20,7 @@ export default function HomePage() {
             <div className="mb-6">
               <Badge className="bg-[#FF5900]/10 text-[#FF5900] border-[#FF5900]/30 mb-4 shadow-md shadow-[#FF5900]/10 text-sm sm:text-base">
                 <Bitcoin className="w-3 h-3 sm:w-4 sm:h-4 mr-2" />
-                1,800+ Learners • Since 2022
+                2,000+ Learners • Since 2022
               </Badge>
             </div>
 
@@ -59,7 +59,7 @@ export default function HomePage() {
                   <span className="text-[#FF5900]">Community</span>
                 </h2>
                 <p className="text-lg sm:text-xl text-gray-600 mb-8 leading-relaxed">
-                  Connect with 1,800+ learners exploring stocks, crypto, and Web3.
+                  Connect with 2,000+ learners exploring stocks, crypto, and Web3.
                   Share knowledge, learn from peers, and grow together in a supportive
                   environment where everyone&apos;s a student.
                 </p>
